@@ -16,8 +16,8 @@ load_dotenv()
 # settings and keys
 openai.api_key = os.environ.get('OPENAI_API_KEY')  # Assign OpenAI API key from environment variable
 model_engine = "gpt-3.5-turbo"                  # text-davinci-003 Define the model engine to be used
-language_out = 'en'     #en                               # Define the language to be used by Google Text-to-Speech
-language_in = 'en-AU'
+language_out = 'zh'     #en                               # Define the language to be used by Google Text-to-Speech
+language_in = 'zh'
 
 # Define a function to recognize speech using Google Speech Recognition
 def recognize_speech():
