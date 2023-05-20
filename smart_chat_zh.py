@@ -46,6 +46,7 @@ def recognize_speech():
                         return False
                     else:
                         # the wake word was detected in the speech
+                        #playsound("recording_zh.mp3") 
                         print("Found wake word!")
                         # wake up the display
                         #pixels.wakeup()
