@@ -18,6 +18,19 @@ You'll need to set up the environment variable for your Open API Key. To do this
 
 
 # Activities
-- [x] XXXXX
+- [x] Function to capture voice and transfer to audio from mic and capture as text
+- [x] Function to output a mp3 file from text
+- [x] Function to play the mp3 file
+- [x] Function to Q&A using OpenAI API
+- [x] Function to chatbot text stile Q&A using langchain and OpenAI API
+- [x] Function to chatbot speak stile Q&A using langchain and OpenAI API
+- [x] Function to use English and Chinese
 - [ ] XXXXX
 - [ ] XXXXX
+- [ ] XXXXX
+- [ ] XXXXX
+- [ ] XXXXX
+- [ ] XXXXX
+
+
+
