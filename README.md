@@ -15,6 +15,8 @@ pip install -r requirements.txt
 ### OpenAI API Key
 You'll need to set up the environment variable for your Open API Key. To do this create a `.env file` in the same directory and add your API Key to the file like this: `OPENAI_API_KEY = "API KEY GOES HERE"`. This is safer than hard coding your API key into the program.
 
+To set it up in Raspberry Pi, create the `.env file` then open the file using `nano.env`, then update the file with your API key.
+
 
 
 # Activities
