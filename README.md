@@ -25,9 +25,9 @@ You'll need to set up the environment variable for your Open API Key. To do this
 - [x] Function to chatbot text stile Q&A using langchain and OpenAI API
 - [x] Function to chatbot speak stile Q&A using langchain and OpenAI API
 - [x] Function to use English and Chinese
-- [ ] XXXXX
-- [ ] XXXXX
-- [ ] XXXXX
+- [x] Deply it on my Raspberry Pi
+- [x] Run successfully on my Raspberry Pi
+- [ ] Raspberry pi using iphone hotspot
 - [ ] XXXXX
 - [ ] XXXXX
 - [ ] XXXXX
