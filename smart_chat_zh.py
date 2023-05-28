@@ -135,6 +135,10 @@ def play_audio_file():
     # Play the audio file asynchronously
     playsound("response.mp3") 
 
+# Define a function to play wake word response
+def play_wake_word_file():
+    playsound("recording_zh.mp3") 
+
 
 # Main function to orchestrate all the actions
 def main():
@@ -142,6 +146,7 @@ def main():
     while True:
         # If wake word is detected in the speech
         if recognize_speech():
+            play_wake_word_file()
             # Capture further user speech as a prompt for chatbot
             prompt = speech()
             print(f"This is the prompt being sent to OpenAI:\n" + prompt)
