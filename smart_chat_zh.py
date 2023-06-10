@@ -134,6 +134,7 @@ def play_audio_file():
     # os.system("mpg321 response.mp3")
     # Play the audio file asynchronously
     playsound("response.mp3") 
+    os.remove("response.mp3")
 
 # Define a function to play wake word response
 def play_wake_word_file():
