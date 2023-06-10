@@ -15,7 +15,7 @@ load_dotenv()
 
 # settings and keys
 openai.api_key = os.environ.get('OPENAI_API_KEY')  # Assign OpenAI API key from environment variable
-model_engine = "gpt-3.5-turbo"                  # text-davinci-003 Define the model engine to be used
+model_engine = "gpt-4"                  # "gpt-3.5-turbo" text-davinci-003 Define the model engine to be used
 language_out = 'zh'     #en                               # Define the language to be used by Google Text-to-Speech
 language_in = 'zh'      #en-AU
 
